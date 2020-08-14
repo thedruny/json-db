@@ -1,36 +1,9 @@
 {
-  "id": "1",
-  "account_id": "1",
-  "end_customer_client_id": "1",
-  "collateral_name": "Jaquelyn Tran",
-  "collateral_identifier": "",
-  "collateral_amount": "1000.00",
-  "collateral_date": "2020-07-20",
-  "collateral_due_date": "2020-07-20",
-  "payout_date": "2020-07-20",
-  "amount": "1000.00",
-  "arrangement_fee_percentage": "19.9",
-  "arrangement_fee_amount": "5.90",
-  "payment_term_id": "1",
-  "payout_amount": "1000.00",
-  "created_at": "2019-12-02T20:01:00.283041Z",
-  "updated_at": "2019-12-02T20:01:00.283041Z",
-  "reference_number": "1 23456 78907",
-  "approve_date": "2019-12-02T20:01:00.283041Z",
-  "approve_user_id": "1",
-  "pay_date": "2019-12-02T20:01:00.283041Z",
-  "pay_user_id": "1",
-  "extra_info": "{'invoiceAlreadyDelivered':true}",
-  "attachments": [
-    {
-      "id": "1",
-      "payout_id": "1",
-      "filename": "attachment.pdf",
-      "extension": "pdf",
-      "mimetype": "application/pdf",
-      "content": "Base64 Encoded string",
-      "created_at": "2019-12-02T20:01:00.283041Z",
-      "updated_at": "2019-12-02T20:01:00.283041Z",
-    }
-  ]
+  "posts": [
+    { "id": 1, "title": "json-server", "author": "typicode" }
+  ],
+  "comments": [
+    { "id": 1, "body": "some comment", "postId": 1 }
+  ],
+  "profile": { "name": "typicode" }
 }
