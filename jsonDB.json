@@ -1,6 +1,6 @@
 [
   {
-    id: '1',
+    id: "1",
     account_id: '1',
     end_customer_client_id: '1',
     collateral_name: 'Jaquelyn Tran',
